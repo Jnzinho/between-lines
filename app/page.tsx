@@ -65,7 +65,7 @@ export default function LandingPage() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#6a5d7b]">
-                  Why You'll Love BetweenLines
+                  Why You&apos;ll Love BetweenLines
                 </h2>
                 <p className="max-w-[700px] text-[#8a7d9b] md:text-xl/relaxed">
                   Designed for endless fun and memorable moments with friends and family.
@@ -108,7 +108,7 @@ export default function LandingPage() {
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-[#6a5d7b]">How to Play</h2>
                 <p className="text-[#8a7d9b] md:text-xl">
-                  It's as easy as 1-2-3! Get ready for non-stop laughter and fun.
+                  It&apos;s as easy as 1-2-3! Get ready for non-stop laughter and fun.
                 </p>
                 <ul className="space-y-4">
                   <li className="flex items-start gap-4">
@@ -163,7 +163,7 @@ export default function LandingPage() {
                   What Players Are Saying
                 </h2>
                 <p className="max-w-[700px] text-[#8a7d9b] md:text-xl/relaxed">
-                  Don't just take our word for it - hear from our happy players!
+                  Don&apos;t just take our word for it - hear from our happy players!
                 </p>
               </div>
             </div>
@@ -197,7 +197,7 @@ export default function LandingPage() {
                           <Star key={i} className="h-5 w-5 fill-[#f5a3b0] text-[#f5a3b0]" />
                         ))}
                     </div>
-                    <p className="text-[#6a5d7b] italic">"{testimonial.quote}"</p>
+                    <p className="text-[#6a5d7b] italic">&ldquo;{testimonial.quote}&rdquo;</p>
                   </div>
                   <p className="text-[#8a7d9b] font-medium">— {testimonial.author}</p>
                 </div>
@@ -317,4 +317,3 @@ export default function LandingPage() {
     </div>
   )
 }
-
